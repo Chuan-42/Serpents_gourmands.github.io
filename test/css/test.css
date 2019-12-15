@@ -1,0 +1,67 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.box{
+	
+	width: 600px;
+	height: 600px;
+	display: flex;
+	flex-flow: row wrap;
+	border: 1px solid pink;
+	justify-content:space-around;
+	margin:40px auto;
+	background: url(../image/bgk.png);
+	background-size: 600px 600px;
+}
+.item{
+	width: 30px;
+	height: 30px;
+	border-radius:15px;
+}
+.showa{
+	width: 600px;
+	height: 600px;
+	position:fixed;
+	z-index: 99;
+	background-color: black;
+	opacity: 0.6;
+	display: none;
+}
+.showa img{
+	width:600px;
+	height: 600px;
+}
+.achever{
+	position: fixed;
+	z-index: 99;
+	width: 400px;
+	height: 400px;
+	background-color: whitesmoke;
+	opacity: 0.5;
+	border: 10px solid brown;
+	border-radius: 20px;
+	top: 120px;
+	text-align: center;
+	line-height: 70px;
+	display: none;
+}
+.achever h1{
+	margin-bottom: 20px;
+}
+.test{
+	text-align: left;
+	line-height: 80px;
+	font-size: 1.8rem;
+	color: red;
+	margin-left: 20%;
+}
+.btn button{
+	margin-top: 40px;
+	width: 150px;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	font-size: 1.3rem;
+	color: white;
+}
